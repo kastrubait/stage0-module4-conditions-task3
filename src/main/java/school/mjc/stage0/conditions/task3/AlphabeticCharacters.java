@@ -18,8 +18,9 @@ public class AlphabeticCharacters {
                 character == 'U' ||
                 character == 'Y') {
                 System.out.println("Vowel");
+            } else {
+                System.out.println("Consonant");
             }
-            System.out.println( "Consonant");
         } else {
             System.out.println("wrong alphabet!");
         }
