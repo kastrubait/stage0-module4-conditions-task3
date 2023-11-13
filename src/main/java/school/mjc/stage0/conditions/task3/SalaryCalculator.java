@@ -5,12 +5,12 @@ public class SalaryCalculator {
         if (salary >= 0) {
             if (salary > 10000) {
                 if (salary > 20000) {
-                    System.out.println("20%");
+                    System.out.println((double)salary * 0.80);
                 } else {
-                    System.out.println("18%");
+                    System.out.println((double)salary * 0.82);
                 }
             } else {
-                System.out.println("15%");
+                System.out.println((double)salary * 0.85);
             }
         } else {
             System.out.println("wrong input!");
