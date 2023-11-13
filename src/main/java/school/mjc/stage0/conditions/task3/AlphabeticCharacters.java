@@ -2,21 +2,21 @@ package school.mjc.stage0.conditions.task3;
 
 public class AlphabeticCharacters {
     public void vowelDeterminer(char character) {
-        int symbolCode = (int) character;
-        if (( symbolCode >= 97 && symbolCode <= 122) ||
-                (symbolCode >= 65 && symbolCode <= 90)) {
-            if (symbolCode == 65 ||
-                symbolCode == 69 ||
-                symbolCode == 73 ||
-                symbolCode == 79 ||
-                symbolCode == 85 ||
-                symbolCode == 89 ||
-                symbolCode == 97 ||
-                symbolCode == 101 ||
-                symbolCode == 105 ||
-                symbolCode == 111 ||
-                symbolCode == 117 ||
-                symbolCode == 121) {
+        //int symbolCode = (int) character;
+        if (( character >= 'a' && character <= 'z') ||
+                (character >= 'A' && character <= 'Z')) {
+            if (character == 'a' ||
+                character == 'e' ||
+                character == 'i' ||
+                character == 'o' ||
+                character == 'u' ||
+                character == 'y' ||
+                character == 'A' ||
+                character == 'E' ||
+                character == 'I' ||
+                character == 'O' ||
+                character == 'U' ||
+                character == 'Y') {
                 System.out.println("Vowel");
             }
             System.out.println( "Consonant");
